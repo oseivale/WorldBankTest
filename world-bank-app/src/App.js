@@ -1,14 +1,12 @@
 import React from "react";
-import Form from "./Form";
-import NavBar from "./NavBar";
-import Output from "./Output";
+import Form from "./components/form/Form";
+import NavBar from "./components/navbar/NavBar";
 
 function App() {
   return (
-    <div className="App">
+    <div data-test="appComponent">
       <NavBar />
       <Form />
-      <Output />
     </div>
   );
 }
